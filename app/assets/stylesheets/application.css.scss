@@ -30,9 +30,27 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=1 ); /* IE6-9 */
  }
  
+   .navbar-default .navbar-brand {
+     color: white;
+   }
+   
+   .navbar-default .navbar-nav > li > a {
+     color:white;
+   }
+ 
    .navbar {
    border: none;
  }
+ 
+  .navbar-default .navbar-brand:hover {
+    color:white;
+    opacity: 0.75;
+  }
+  
+  .navbar-default .navbar-nav > li > a:hover {
+    color:white;
+    opacity: 0.75;
+  }
  
  .home-callout {
     color: white;
