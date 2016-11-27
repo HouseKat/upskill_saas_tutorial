@@ -20,3 +20,16 @@
  h1, h2, h3 {
     font-family: 'Lobster', sans-serif;
  }
+ 
+ body, .navbar {
+     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7fbfc+30,add9e4+76 */
+  background: #f7fbfc; /* Old browsers */
+  background: -moz-linear-gradient(left, #f7fbfc 30%, #add9e4 76%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #f7fbfc 30%,#add9e4 76%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #f7fbfc 30%,#add9e4 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=1 ); /* IE6-9 */
+ }
+ 
+ .navbar {
+   border: none;
+ }
