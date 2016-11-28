@@ -46,6 +46,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
        opacity: 0.75;
    }
    }
+   
+   .navbar-default .navbar-toggle .icon-bar {
+     background-color: white;
+   }
+ 
+ .navbar-default .navbar-toggle {
+   border: 2px solid white;
+   &:hover, &:focus {
+     background-color: #00c6ff;
+   }
+ }
  
    .navbar {
    border: none; }
