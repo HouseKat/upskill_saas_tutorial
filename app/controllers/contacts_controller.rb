@@ -1,18 +1,18 @@
 class ContactsController < ApplicationController
   
   def new
-  @contact = Contact.new
-end
-def create
-  @contact = Contact.new(contact_params)
-  if @contact.save
+    @contact = Contact.new
+  end
+  def create
+    @contact = Contact.new(contact_params)
+    if @contact.save
      redirect_to new_contact_path, notice: "Message sent."
-  else
+    else
      redirect_to new_contact_path, notice: "Error occured."
+    end
   end
-end
-private
-  def contact_params
+  private
+    def contact_params
      params.require(:contact).permit(:name, :email, :comments)
-  end
+    end
 end
