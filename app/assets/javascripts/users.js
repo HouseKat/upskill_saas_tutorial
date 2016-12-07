@@ -1,6 +1,5 @@
 /* global $, Stripe  */
-
-  //Document ready.
+ //Document ready.
   $(document).on('turbolinks:load', function(){
   var theForm = $('#pro_form');
   var submitBtn = $('#form-signup-btn');
